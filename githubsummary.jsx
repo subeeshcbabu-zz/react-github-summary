@@ -12,7 +12,7 @@ var GitHubData = React.createClass({
   render() {
     return (
       <div>
-        <img id='avatar' src={this.state.avatar_url} alt={this.state.name} width='100'/>
+        <img id='avatar' src={this.state.avatar_url} alt={this.state.name} width={this.props.width}/>
         <div id='name'>{this.state.name}</div>
       </div>
     )
