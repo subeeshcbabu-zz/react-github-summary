@@ -1,0 +1,31 @@
+{
+  "name": "react-github-summary",
+  "version": "1.0.0",
+  "description": "A react component to display the GitHub Summary including Profile, Activities, Contributions etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subeeshcbabu/react-github-summary.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "github",
+    "summary",
+    "github-summary",
+    "react-github-summary"
+  ],
+  "author": "subeeshcbabu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subeeshcbabu/react-github-summary/issues"
+  },
+  "homepage": "https://github.com/subeeshcbabu/react-github-summary#readme",
+  "dependencies": {
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
