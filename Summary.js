@@ -26,9 +26,9 @@ class Summary extends React.Component {
 
     render() {
         return (
-            <div>
-            <img id='avatar' src={this.state.avatar_url} alt={this.state.name} width={this.props.width}/>
-            <div id='name'>{this.state.name}</div>
+            <div className='ghsummary'>
+                <img className='avatar' src={this.state.avatar_url} alt={this.state.name} width={this.props.width}/>
+                <div className='fullname'>{this.state.name}</div>
             </div>
         )
     }
