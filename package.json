@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests",
-    "start": "webpack-dev-server --content-base devserver"
+    "build": "webpack",
+    "start": "webpack --config devserver/webpack.config.js && webpack-dev-server --content-base devserver"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/subeeshcbabu/react-github-summary#readme",
   "dependencies": {
+    "axios": "^0.9.1",
     "react": "^0.14.6"
   },
   "devDependencies": {

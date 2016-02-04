@@ -1,7 +1,7 @@
 module.exports = {
-    entry: './main.js',
+    entry: './devserver/main.js',
     output: {
-        path: './',
+        path: './devserver/',
         filename: 'index.js'
     },
     devServer: {
