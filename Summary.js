@@ -1,5 +1,7 @@
 import React from 'react';
 import Axios from 'axios';
+import './Summary.css';
+
 const GITHUB_API = 'https://api.github.com/users/';
 
 class Summary extends React.Component {
