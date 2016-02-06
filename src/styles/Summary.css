@@ -35,3 +35,6 @@
 .ghsummary div.location span {
     padding-left: 5px;
 }
+.ghsummary iframe {
+    padding: 10px;
+}

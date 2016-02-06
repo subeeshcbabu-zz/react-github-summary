@@ -32,9 +32,9 @@ class Summary extends React.Component {
     }
 
     render() {
-        let { width, imgWidth } = this.props;
+        let { username, width, imgWidth } = this.props;
         let { name, html_url, avatar_url, location } = this.state;
-
+        let followLink = `https://ghbtns.com/github-btn.html?user=${username}&type=follow&count=true`
         return (
             <div className={this.addClassName()}>
                 <div>
@@ -53,6 +53,7 @@ class Summary extends React.Component {
                     <Octicon name='location'/>
                     <span>{location}</span>
                 </div>
+                <iframe src={followLink} frameBorder="0" scrolling="0" width="170px" height="20px"></iframe>
             </div>
         )
     }
