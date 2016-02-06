@@ -33,7 +33,7 @@ class Summary extends React.Component {
 
     render() {
         let { width, imgWidth } = this.props;
-        let { name, html_url, avatar_url } = this.state;
+        let { name, html_url, avatar_url, location } = this.state;
 
         return (
             <div className={this.addClassName()}>
@@ -49,7 +49,10 @@ class Summary extends React.Component {
                     </a>
                 </div>
                 <div className='fullname'>{name}</div>
-
+                <div className='location'>
+                    <Octicon name='location'/>
+                    <span>{location}</span>
+                </div>
             </div>
         )
     }
