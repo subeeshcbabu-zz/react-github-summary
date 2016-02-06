@@ -1,10 +1,18 @@
+.ghsummary {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+}
 .ghsummary .fullname{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 26px;
+	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
 	line-height: 30px;
+    padding-top: 10px;
 }
 .ghsummary span.mark {
     position: absolute;
@@ -12,6 +20,11 @@
     left:2px;
 }
 
+.ghsummary span.logo {
+    padding: 5px 0px 5px 0px;
+}
+
 .ghsummary div.avatar {
     position: relative;
+    display: inline-block;
 }

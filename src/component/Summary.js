@@ -27,17 +27,28 @@ class Summary extends React.Component {
             });
     }
 
-    render() {
-        return (
-            <div className='ghsummary'>
-                <div className='avatar'>
-                    <Octicon className='mark' mega name="mark-github"/>
+    addClassName () {
+        return `${this.props.class ? this.props.class : ''} ghsummary`;
+    }
 
-                    <a href={this.state.html_url}>
-                        <img src={this.state.avatar_url} alt={this.state.name} width={this.props.width}/>
+    render() {
+        let { width, imgWidth } = this.props;
+        let { name, html_url, avatar_url } = this.state;
+
+        return (
+            <div className={this.addClassName()}>
+                <div>
+                    <Octicon className='logo' mega name='logo-github'/>
+                </div>
+
+                <div className='avatar'>
+                    <Octicon className='mark' mega name='mark-github'/>
+
+                    <a href={html_url}>
+                        <img src={avatar_url} alt={name} width={imgWidth}/>
                     </a>
                 </div>
-                <div className='fullname'>{this.state.name}</div>
+                <div className='fullname'>{name}</div>
 
             </div>
         )

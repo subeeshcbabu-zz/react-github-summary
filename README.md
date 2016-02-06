@@ -28,17 +28,19 @@ To install
     }
 ```
 
-### Required props
+#### Required props
 
 Prop name | Description
 ---- | -------------
 `username` | GitHub username
 
-### Optional props
+#### Optional props
 
 Prop name | Description
 ---- | -------------
-`wdith` | The width of the avatar image.
+`width` | The width of the summary component.
+`imgWidth` | The width of the avatar image
+`class` | The additional className to add to the top level div
 
 
 
