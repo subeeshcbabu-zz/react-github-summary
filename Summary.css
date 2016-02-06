@@ -1,3 +1,17 @@
-.ghsummary {
-    font-size: 26px;
+.ghsummary .fullname{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 30px;
+}
+.ghsummary span.mark {
+    position: absolute;
+    top:2px;
+    left:2px;
+}
+
+.ghsummary div.avatar {
+    position: relative;
 }

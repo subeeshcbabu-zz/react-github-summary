@@ -22,6 +22,10 @@ module.exports = {
                 loaders: ['style', 'css'],
                 test: /\.css$/,
                 exclude: /\.useable\.css$/
+            },
+            {
+                test: /\.(otf|eot|svg|ttf|woff|woff2).*$/,
+                loader: 'url?limit=8192'
             }
         ]
     }

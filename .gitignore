@@ -1,2 +1,8 @@
 node_modules
 coverage
+npm-debug.log
+
+devserver/*.eot
+devserver/*.ttf
+devserver/*.woff
+devserver/*.svg

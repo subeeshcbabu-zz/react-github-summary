@@ -1,5 +1,6 @@
 import React from 'react';
 import Axios from 'axios';
+import Octicon from 'react-octicon';
 import './Summary.css';
 
 const GITHUB_API = 'https://api.github.com/users/';
@@ -29,8 +30,15 @@ class Summary extends React.Component {
     render() {
         return (
             <div className='ghsummary'>
-                <img className='avatar' src={this.state.avatar_url} alt={this.state.name} width={this.props.width}/>
+                <div className='avatar'>
+                    <Octicon className='mark' mega name="mark-github"/>
+
+                    <a href='{this.state.html_url}'>
+                        <img src={this.state.avatar_url} alt={this.state.name} width={this.props.width}/>
+                    </a>
+                </div>
                 <div className='fullname'>{this.state.name}</div>
+
             </div>
         )
     }

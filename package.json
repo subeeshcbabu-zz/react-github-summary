@@ -27,7 +27,8 @@
   "homepage": "https://github.com/subeeshcbabu/react-github-summary#readme",
   "dependencies": {
     "axios": "^0.9.1",
-    "react": "^0.14.6"
+    "react": "^0.14.6",
+    "react-octicon": "^2.0.0"
   },
   "devDependencies": {
     "babel": "^6.3.26",
@@ -36,8 +37,10 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
     "react-dom": "^0.14.6",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
   }

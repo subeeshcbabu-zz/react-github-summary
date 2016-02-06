@@ -21,11 +21,25 @@ To install
         render () {
             return (
                 <div>
-                    <GitHubSummary username='yourusername' width='200'>
+                    <GitHubSummary username='your-username' width='200'>
                 </div>
             )
         }
     }
 ```
+
+### Required props
+
+Prop name | Description
+---- | -------------
+`username` | GitHub username
+
+### Optional props
+
+Prop name | Description
+---- | -------------
+`wdith` | The width of the avatar image.
+
+
 
 ### Using at client side (Without npm)
