@@ -19729,11 +19729,11 @@
 	        value: function render() {
 	            return _react2.default.createElement(
 	                'div',
-	                { 'class': 'ghsummary' },
-	                _react2.default.createElement('img', { 'class': 'avatar', src: this.state.avatar_url, alt: this.state.name, width: this.props.width }),
+	                { className: 'ghsummary' },
+	                _react2.default.createElement('img', { className: 'avatar', src: this.state.avatar_url, alt: this.state.name, width: this.props.width }),
 	                _react2.default.createElement(
 	                    'div',
-	                    { 'class': 'fullname' },
+	                    { className: 'fullname' },
 	                    this.state.name
 	                )
 	            );
