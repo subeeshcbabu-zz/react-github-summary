@@ -30,13 +30,16 @@ class Summary extends React.Component {
     addClassName () {
         return `${this.props.class ? this.props.class : ''} ghsummary`;
     }
+    addStyle () {
+        return this.props.width ? { width : this.props.width } : {};
+    }
 
     render() {
         let { username, width, imgWidth } = this.props;
         let { name, html_url, avatar_url, location } = this.state;
         let followLink = `https://ghbtns.com/github-btn.html?user=${username}&type=follow&count=true`
         return (
-            <div className={this.addClassName()}>
+            <div className={this.addClassName()} style={this.addStyle()}>
                 <div>
                     <Octicon className='logo' mega name='logo-github'/>
                 </div>
