@@ -46,7 +46,7 @@ class Summary extends React.Component {
 
                 <div className='avatar'>
                     <Octicon className='mark' mega name='mark-github'/>
-
+                    
                     <a href={html_url}>
                         <img src={avatar_url} alt={name} width={imgWidth}/>
                     </a>
@@ -56,7 +56,7 @@ class Summary extends React.Component {
                     <Octicon name='location'/>
                     <span>{location}</span>
                 </div>
-                <iframe src={followLink} frameBorder="0" scrolling="0" width="170px" height="20px"></iframe>
+                <iframe src={followLink} frameBorder="0" scrolling="0" width="200px" height="20px"></iframe>
             </div>
         )
     }
