@@ -1,6 +1,6 @@
 {
   "name": "react-github-summary",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A react component to display the GitHub Summary including Profile, Activities, Contributions etc",
   "main": "index.js",
   "scripts": {
